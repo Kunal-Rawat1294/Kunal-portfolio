@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kunal Rawat | Full-Stack Web Developer | Modern Portfolio</title>
+        <link rel="icon" type="image/png" href="public/online-resume.png">
+    <meta
+      name="description"
+      content="Kunal Rawat - Full-Stack Web Developer and Computer Science Student. Experienced in React, Node.js, MongoDB, and modern web technologies."
+    />
+    <meta
+      name="keywords"
+      content="Full-Stack Developer, Web Developer, React, Node.js, JavaScript, Portfolio"
+    />
+    <meta name="author" content="Kunal Rawat" />
+    <meta
+      property="og:title"
+      content="Kunal Rawat | Full-Stack Web Developer"
+    />
+    <meta
+      property="og:description"
+      content="Modern portfolio showcasing full-stack web development projects and skills"
+    />
+    <meta property="og:type" content="website" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body data-theme="light">
+
+
+    <div id="main-content">
+      
+      <!-- Navigation -->
+      <nav
+        class="navbar"
+        id="navbar"
+        role="navigation"
+        aria-label="Main navigation"
+      >
+        <div class="nav-container">
+          <div class="nav-logo">
+                  <video id="logo-video" src="public/lightTheme.mp4" autoplay muted playsinline preload="auto"></video>
+          </div>
+          <div class="nav-menu" id="nav-menu">
+            <a href="#home" class="nav-link ">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#contact" class="nav-link">Contact</a>
+          </div>
+          <!-- From Uiverse.io by Galahhad --> 
+<div class="toggle-bar-anima">
+  <label class="theme-switch">
+  <input type="checkbox" class="theme-switch__checkbox">
+  <div class="theme-switch__container">
+    <div class="theme-switch__clouds"></div>
+    <div class="theme-switch__stars-container">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 55" fill="none">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M135.831 3.00688C135.055 3.85027 134.111 4.29946 133 4.35447C134.111 4.40947 135.055 4.85867 135.831 5.71123C136.607 6.55462 136.996 7.56303 136.996 8.72727C136.996 7.95722 137.172 7.25134 137.525 6.59129C137.886 5.93124 138.372 5.39954 138.98 5.00535C139.598 4.60199 140.268 4.39114 141 4.35447C139.88 4.2903 138.936 3.85027 138.16 3.00688C137.384 2.16348 136.996 1.16425 136.996 0C136.996 1.16425 136.607 2.16348 135.831 3.00688ZM31 23.3545C32.1114 23.2995 33.0551 22.8503 33.8313 22.0069C34.6075 21.1635 34.9956 20.1642 34.9956 19C34.9956 20.1642 35.3837 21.1635 36.1599 22.0069C36.9361 22.8503 37.8798 23.2903 39 23.3545C38.2679 23.3911 37.5976 23.602 36.9802 24.0053C36.3716 24.3995 35.8864 24.9312 35.5248 25.5913C35.172 26.2513 34.9956 26.9572 34.9956 27.7273C34.9956 26.563 34.6075 25.5546 33.8313 24.7112C33.0551 23.8587 32.1114 23.4095 31 23.3545ZM0 36.3545C1.11136 36.2995 2.05513 35.8503 2.83131 35.0069C3.6075 34.1635 3.99559 33.1642 3.99559 32C3.99559 33.1642 4.38368 34.1635 5.15987 35.0069C5.93605 35.8503 6.87982 36.2903 8 36.3545C7.26792 36.3911 6.59757 36.602 5.98015 37.0053C5.37155 37.3995 4.88644 37.9312 4.52481 38.5913C4.172 39.2513 3.99559 39.9572 3.99559 40.7273C3.99559 39.563 3.6075 38.5546 2.83131 37.7112C2.05513 36.8587 1.11136 36.4095 0 36.3545ZM56.8313 24.0069C56.0551 24.8503 55.1114 25.2995 54 25.3545C55.1114 25.4095 56.0551 25.8587 56.8313 26.7112C57.6075 27.5546 57.9956 28.563 57.9956 29.7273C57.9956 28.9572 58.172 28.2513 58.5248 27.5913C58.8864 26.9312 59.3716 26.3995 59.9802 26.0053C60.5976 25.602 61.2679 25.3911 62 25.3545C60.8798 25.2903 59.9361 24.8503 59.1599 24.0069C58.3837 23.1635 57.9956 22.1642 57.9956 21C57.9956 22.1642 57.6075 23.1635 56.8313 24.0069ZM81 25.3545C82.1114 25.2995 83.0551 24.8503 83.8313 24.0069C84.6075 23.1635 84.9956 22.1642 84.9956 21C84.9956 22.1642 85.3837 23.1635 86.1599 24.0069C86.9361 24.8503 87.8798 25.2903 89 25.3545C88.2679 25.3911 87.5976 25.602 86.9802 26.0053C86.3716 26.3995 85.8864 26.9312 85.5248 27.5913C85.172 28.2513 84.9956 28.9572 84.9956 29.7273C84.9956 28.563 84.6075 27.5546 83.8313 26.7112C83.0551 25.8587 82.1114 25.4095 81 25.3545ZM136 36.3545C137.111 36.2995 138.055 35.8503 138.831 35.0069C139.607 34.1635 139.996 33.1642 139.996 32C139.996 33.1642 140.384 34.1635 141.16 35.0069C141.936 35.8503 142.88 36.2903 144 36.3545C143.268 36.3911 142.598 36.602 141.98 37.0053C141.372 37.3995 140.886 37.9312 140.525 38.5913C140.172 39.2513 139.996 39.9572 139.996 40.7273C139.996 39.563 139.607 38.5546 138.831 37.7112C138.055 36.8587 137.111 36.4095 136 36.3545ZM101.831 49.0069C101.055 49.8503 100.111 50.2995 99 50.3545C100.111 50.4095 101.055 50.8587 101.831 51.7112C102.607 52.5546 102.996 53.563 102.996 54.7273C102.996 53.9572 103.172 53.2513 103.525 52.5913C103.886 51.9312 104.372 51.3995 104.98 51.0053C105.598 50.602 106.268 50.3911 107 50.3545C105.88 50.2903 104.936 49.8503 104.16 49.0069C103.384 48.1635 102.996 47.1642 102.996 46C102.996 47.1642 102.607 48.1635 101.831 49.0069Z" fill="currentColor"></path>
+      </svg>
+    </div>
+    <div class="theme-switch__circle-container">
+      <div class="theme-switch__sun-moon-container">
+        <div class="theme-switch__moon">
+          <div class="theme-switch__spot"></div>
+          <div class="theme-switch__spot"></div>
+          <div class="theme-switch__spot"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</label>
+</div>
+        </div>
+      </nav>
+
+      <!-- Hero Section -->
+      <section id="home" class="hero" role="banner">
+        <div class="hero-bg-animation"></div>
+        <div class="hero-container">
+          <div class="hero-content">
+            <div class="hero-text">
+              <!-- Removed inline styles, JS now handles animation delays -->
+              <h1 class="hero-title fade-in-up">
+                <span class="gradient-text">Kunal Rawat</span>
+              </h1>
+              <h2 class="hero-subtitle fade-in-up">
+                Full-Stack Web Developer
+              </h2>
+              <p class="hero-description fade-in-up">
+                I am a dedicated Computer Science student with a passion for crafting responsive and user-centric web applications. Driven by curiosity and creativity, I enjoy solving real-world challenges through innovative technology solutions. My focus is on building seamless digital experiences that combine functionality with intuitive design.
+              </p>
+              <div class="hero-buttons fade-in-up">
+                <a href="#projects" class="btn btn-primary" role="button">
+                  <span>View My Work</span>
+                  <i class="fas fa-arrow-right"></i>
+                </a>
+                <a href="#contact" class="btn btn-secondary" role="button">
+                  <span>Get In Touch</span>
+                  <i class="fas fa-envelope"></i>
+                </a>
+              </div>
+            </div>
+            <div class="hero-image fade-in-up">
+              <div class="hero-avatar">
+                <div class="avatar-placeholder">
+                  <img src="public/mynewphoto.jpg" alt="Myimage " />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="scroll-indicator bounce">
+          <div class="scroll-arrow"></div>
+        </div>
+      </section>
+
+      <!-- Other sections (About, Skills, Projects, Contact) -->
+      <!-- ... your existing sections go here ... -->
+        <!-- About Section -->
+    <section id="about" class="about" role="main">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title reveal-on-scroll">About Me</h2>
+            <p class="section-subtitle reveal-on-scroll">
+              My journey in web development
+            </p>
+          </div>
+          <div class="about-content">
+            <div class="about-text reveal-on-scroll">
+              <p class="about-description enhanced-text">
+                I'm a self-motivated Computer Science student with a passion for
+                creating innovative web solutions. My journey began with curiosity
+                about how websites work, and has evolved into expertise in
+                full-stack development.
+              </p>
+              <p class="about-description enhanced-text">
+                I specialize in building responsive, user-friendly applications
+                using modern technologies. I'm committed to continuous learning,
+                contributing to open-source projects, and staying updated with the
+                latest industry trends.
+              </p>
+              <div class="about-highlights reveal-on-scroll">
+                <div class="highlight-item interactive-card">
+                  <i class="fas fa-code"></i>
+                  <span>Clean, Efficient Code</span>
+                </div>
+                <div class="highlight-item interactive-card">
+                  <i class="fas fa-mobile-alt"></i>
+                  <span>Responsive Design</span>
+                </div>
+                <div class="highlight-item interactive-card">
+                  <i class="fas fa-lightbulb"></i>
+                  <span>Problem Solving</span>
+                </div>
+                <div class="highlight-item interactive-card">
+                  <i class="fas fa-users"></i>
+                  <span>Team Collaboration</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+      <!-- Skills Section -->
+      <section id="skills" class="skills" role="main">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title reveal-on-scroll">Skills & Technologies</h2>
+            <p class="section-subtitle reveal-on-scroll">
+              Technologies I work with
+            </p>
+          </div>
+          <div class="skills-grid reveal-on-scroll">
+            <div class="skill-category enhanced-card">
+              <h3 class="category-title">Programming Languages</h3>
+              <div class="skill-items">
+                <div class="skill-item skill-badge" data-skill="javascript">
+                  <i class="fab fa-js-square"></i>
+                  <span>JavaScript</span>
+                </div>
+                <div class="skill-item skill-badge" data-skill="java">
+                  <i class="fab fa-java"></i>
+                  <span>Java</span>
+                </div>
+                <div class="skill-item skill-badge" data-skill="cpp">
+                  <i class="fas fa-code"></i>
+                  <span>C++</span>
+                </div>
+                <div class="skill-item skill-badge" data-skill="c">
+                  <i class="fas fa-code"></i>
+                  <span>C</span>
+                </div>
+                <div class="skill-item skill-badge" data-skill="html">
+                  <i class="fab fa-html5"></i>
+                  <span>HTML</span>
+                </div>
+                <div class="skill-item skill-badge" data-skill="css">
+                  <i class="fab fa-css3-alt"></i>
+                  <span>CSS</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill-category enhanced-card">
+              <h3 class="category-title">Frameworks & Libraries</h3>
+              <div class="skill-items">
+                <div class="skill-item skill-badge" data-skill="react">
+                  <i class="fab fa-react"></i>
+                  <span>React.js</span>
+                </div>
+                <div class="skill-item skill-badge" data-skill="nodejs">
+                  <i class="fab fa-node-js"></i>
+                  <span>Node.js</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill-category enhanced-card">
+              <h3 class="category-title">Databases & Tools</h3>
+              <div class="skill-items">
+                <div class="skill-item skill-badge" data-skill="mongodb">
+                  <i class="fas fa-database"></i>
+                  <span>MongoDB</span>
+                </div>
+                <div class="skill-item skill-badge" data-skill="git">
+                  <i class="fab fa-git-alt"></i>
+                  <span>Git</span>
+                </div>
+                <div class="skill-item skill-badge" data-skill="github">
+                  <i class="fab fa-github"></i>
+                  <span>GitHub</span>
+                </div>
+                <div class="skill-item skill-badge" data-skill="postman">
+                  <i class="fas fa-tools"></i>
+                  <span>Postman</span>
+                </div>
+                <div class="skill-item skill-badge" data-skill="compass">
+                  <i class="fas fa-compass"></i>
+                  <span>MongoDB Compass</span>
+                </div>
+                <div class="skill-item skill-badge" data-skill="netlify">
+                  <i class="fas fa-cloud"></i>
+                  <span>Netlify</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill-category enhanced-card">
+              <h3 class="category-title">Soft Skills</h3>
+              <div class="skill-items">
+                <div class="skill-item skill-badge" data-skill="problem-solving">
+                  <i class="fas fa-puzzle-piece"></i>
+                  <span>Problem-solving</span>
+                </div>
+                <div class="skill-item skill-badge" data-skill="collaboration">
+                  <i class="fas fa-users"></i>
+                  <span>Team Collaboration</span>
+                </div>
+                <div class="skill-item skill-badge" data-skill="adaptability">
+                  <i class="fas fa-sync-alt"></i>
+                  <span>Adaptability</span>
+                </div>
+                <div class="skill-item skill-badge" data-skill="time-management">
+                  <i class="fas fa-clock"></i>
+                  <span>Time Management</span>
+                </div>
+                <div class="skill-item skill-badge" data-skill="communication">
+                  <i class="fas fa-comments"></i>
+                  <span>Communication</span>
+                </div>
+                <div class="skill-item skill-badge" data-skill="attention">
+                  <i class="fas fa-eye"></i>
+                  <span>Attention to Detail</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+      <!-- Projects Section -->
+      <section id="projects" class="projects" role="main">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title reveal-on-scroll">Featured Projects</h2>
+            <p class="section-subtitle reveal-on-scroll">
+              Some of my recent work
+            </p>
+          </div>
+          <div class="projects-grid reveal-on-scroll">
+            <div class="project-card enhanced-project-card" tabindex="0">
+              <div class="project-image">
+                <div class="project-placeholder">
+                  <img src="public/blend.png" alt="" />
+                </div>
+                <div class="project-overlay">
+                  <div class="project-links">
+                    <a
+                      target="_blank"
+                      href="https://blendpdfs.netlify.app/"
+                      class="project-link enhanced-btn"
+                      title="Live Demo"
+                      aria-label="View BlendPDF live demo"
+                    >
+                      <i class="fas fa-external-link-alt"></i>
+                    </a>
+                    <a
+                    target="_blank"
+                      href="https://github.com/Kunal-Rawat1294/BlendPdf"
+                      class="project-link enhanced-btn"
+                      title="GitHub"
+                      aria-label="View BlendPDF source code"
+                    >
+                      <i class="fab fa-github"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">BlendPDF Web App</h3>
+                <p class="project-description enhanced-text">
+                  Server-side PDF merger built with Express.js, Multer, and
+                  pdf-merger-js. Enables users to upload and combine multiple PDFs
+                  with 100+ successful test merges.
+                </p>
+                <div class="project-tech">
+                  <span class="tech-tag enhanced-tag">Express.js</span>
+                  <span class="tech-tag enhanced-tag">Multer</span>
+                  <span class="tech-tag enhanced-tag">PDF-merger-js</span>
+                </div>
+                <p class="project-date">May 2025 – Jun 2025</p>
+              </div>
+            </div>
+  
+            <div class="project-card enhanced-project-card" tabindex="0">
+              <div class="project-image">
+                <div class="project-placeholder">
+                  <img src="public/typespeeding.png" alt="typespeeding" />
+                </div>
+                <div class="project-overlay">
+                  <div class="project-links">
+                    <a
+                    target="_blank"
+                      href="https://typespeeding.netlify.app/"
+                      class="project-link enhanced-btn"
+                      title="Live Demo"
+                      aria-label="View TypeSpeeding app live demo"
+                    >
+                      <i class="fas fa-external-link-alt"></i>
+                    </a>
+                    <a
+                      target="_blank"
+                      href="https://github.com/Kunal-Rawat1294/Type-Tester-webapp"
+                      class="project-link enhanced-btn"
+                      title="GitHub"
+                      aria-label="View TypeSpeeding app source code"
+                    >
+                      <i class="fab fa-github"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">TypeSpeeding App</h3>
+                <p class="project-description enhanced-text">
+                  Real-time typing speed test calculating WPM and accuracy.
+                  Features JavaScript event handling and DOM manipulation for
+                  instant feedback and improved responsiveness.
+                </p>
+                <div class="project-tech">
+                  <span class="tech-tag enhanced-tag">JavaScript</span>
+                  <span class="tech-tag enhanced-tag">HTML</span>
+                  <span class="tech-tag enhanced-tag">CSS</span>
+                </div>
+                <p class="project-date">May 2024 – Jun 2024</p>
+              </div>
+            </div>
+  
+            <div class="project-card enhanced-project-card" tabindex="0">
+              <div class="project-image">
+                <div class="project-placeholder">
+                  <img src="public/todo.png" alt="todo" />
+                </div>
+                <div class="project-overlay">
+                  <div class="project-links">
+                    <a
+                      target="_blank"
+                      href="https://kunal-todo-webapp.netlify.app/"
+                      class="project-link enhanced-btn"
+                      title="Live Demo"
+                      aria-label="View To-Do app live demo"
+                    >
+                      <i class="fas fa-external-link-alt"></i>
+                    </a>
+                    <a
+                      target="_blank"
+                      href="https://github.com/Kunal-Rawat1294/To-do-webApp"
+                      class="project-link enhanced-btn"
+                      title="GitHub"
+                      aria-label="View To-Do app source code"
+                    >
+                      <i class="fab fa-github"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">To-Do Web App</h3>
+                <p class="project-description enhanced-text">
+                  Minimalist task manager with add/delete/complete features using
+                  JavaScript and local storage. Deployed on Netlify and
+                  demonstrated in peer webinars.
+                </p>
+                <div class="project-tech">
+                  <span class="tech-tag enhanced-tag">JavaScript</span>
+                  <span class="tech-tag enhanced-tag">Local Storage</span>
+                  <span class="tech-tag enhanced-tag">Netlify</span>
+                </div>
+                <p class="project-date">2024</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+      <!-- Contact Section -->
+      <section id="contact" class="contact" role="main">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title reveal-on-scroll">Get In Touch</h2>
+            <p class="section-subtitle reveal-on-scroll">Let's work together</p>
+          </div>
+          <div class="contact-content reveal-on-scroll">
+            <div class="contact-info enhanced-card">
+              <p class="contact-description enhanced-text">
+                I'm always interested in new opportunities and collaborations.
+                Whether you have a project in mind or just want to connect, feel
+                free to reach out!
+              </p>
+              <div class="contact-methods">
+                <a
+                  href="mailto:kr0324527@gmail.com"
+                  class="contact-method enhanced-contact-btn"
+                  aria-label="Send email to Kunal Rawat"
+                >
+                  <i class="fas fa-envelope"></i>
+                  <span>kr0324527@gmail.com</span>
+                </a>
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/kunal-rawat-338646314/"
+                  class="contact-method enhanced-contact-btn"
+                  aria-label="Visit LinkedIn profile"
+                >
+                  <i class="fab fa-linkedin"></i>
+                  <span>LinkedIn Profile</span>
+                </a>
+                <a  
+                  target="_blank"
+                  href="https://github.com/Kunal-Rawat1294"
+                  class="contact-method enhanced-contact-btn"
+                  aria-label="Visit GitHub profile"
+                  
+                >
+                  <i class="fab fa-github"></i>
+                  <span>GitHub Profile</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+      <!-- Footer -->
+      <footer class="footer" role="contentinfo">
+        <div class="container">
+          <div class="footer-content">
+            <p>&copy; 2025 Kunal Rawat. All rights reserved.</p>
+            <div class="footer-links">
+              <a
+                target="_blank"
+                href="mailto:kr0324527@gmail.com"
+                class="footer-link"
+                aria-label="Email"
+                ><i class="fas fa-envelope"></i
+              ></a>
+              <a href="https://www.linkedin.com/in/kunal-rawat-338646314/" target="_blank" class="footer-link" aria-label="LinkedIn"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a href="https://github.com/Kunal-Rawat1294" target="_blank" class="footer-link" aria-label="GitHub"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
